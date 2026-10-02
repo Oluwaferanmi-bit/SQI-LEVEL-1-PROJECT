@@ -1,0 +1,262 @@
+.position {
+    position: absolute;
+    /* width: 0%;
+    height: 5px; */
+}
+
+@media screen and (max-width: 480px) {
+    .signup {
+        display: none;
+    }
+    .buttonform {
+        padding-left: 0%;
+    }
+    .collapse {
+        padding-left: 0%;
+    }
+    .header1 {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 992px) {
+    .dropdown:hover {
+        background-color: #EDE9DD;
+        border-radius: 10px;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; /* Adjust this if the menu opens too far down */
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+.one {
+    width: 39%;
+    height: 220px;
+    padding: 50px 0px 0px 350px;
+    /* padding-left: 200px; */
+}
+.two {
+    width: 12%;
+    height: 230px;
+    padding: 50px 0px 0px 0px;
+    /* padding-left: 200px; */
+}
+.three {
+    width: 12%;
+    height: 200px;
+    padding: 50px 0px 0px 0px;
+    /* padding-left: 200px; */
+}
+.four {
+    width: 12%;
+    height: 200px;
+    padding: 50px 0px 0px 0px;
+    /* padding-left: 200px; */
+}
+.five {
+    width: 32%;
+    height: 140px;
+    padding: 0px 0px 0px 270px;
+    /* padding-left: 200px; */
+}
+.six {
+    width: 15%;
+    height: 150px;
+    padding: 0px 0px 10px 40px;
+    /* padding-left: 200px; */
+}
+.seven {
+    width: 12%;
+    height: 150px;
+    padding: 0px 0px 10px 0px;
+    /* padding-left: 200px; */
+}
+.eight {
+    width: 12%;
+    height: 150px;
+    padding: 0px 0px 10px 0px;
+    /* padding-left: 200px; */
+}
+.nine {
+    width: 12%;
+    height: 150px;
+    padding: 0px 0px 10px 0px;
+    /* padding-left: 200px; */
+}
+#three {
+    box-shadow: 2px 2px 5px gray;
+    padding: 7px;
+    display: inline;
+    border-radius: 50px;
+}
+a {
+  text-decoration: none !important;
+  color: inherit; /* Inherits whatever color its parent container uses */
+}
+#carol1 {
+    padding: 5px 0px;
+    width: 20%;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+}
+#carol1:hover {
+    transform: translate(10px, 10px);
+    transform: scale(1.15,1.15);
+}
+.carol-parent-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+#carol2 {
+    width: 100%;
+    height: 68%;
+    clip-path: inset(0px 0px 0px 0px round 0px 0px 20px 20px); 
+    /* border-radius: 30px; */
+    object-fit: cover;
+    object-position: bottom;
+    transition: transform 0.3s ease-in-out;
+}
+#carol2:hover {
+    transform: translate(10px, 10px);
+    transform: scale(1.15,1.15);
+}
+#carol3 {
+    width: 100%;
+    height: 70%;
+    clip-path: inset(0px 0px 0px 0px round 0px 0px 20px 20px); 
+    /* border-radius: 30px; */
+    object-fit: cover;
+    object-position: bottom;
+    transition: transform 0.3s ease-in-out;
+}
+#carol3:hover {
+    transform: translate(10px, 10px);
+    transform: scale(1.15,1.15);
+}
+.carol-parent-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+#carol4 {
+    width: 80%;
+    height: 60%;
+    clip-path: inset(0px 0px 0px 0px round 0px 0px 20px 20px); 
+    /* border-radius: 30px; */
+    object-fit: cover;
+    object-position: bottom;
+    transition: transform 0.3s ease-in-out;
+}
+#carol4:hover {
+    transform: translate(10px, 10px);
+    transform: scale(1.15,1.15);
+}
+#carol5 {
+    width: 70%;
+    height: 70%;
+    clip-path: inset(0px 0px 0px 0px round 0px 0px 20px 20px); 
+    /* border-radius: 30px; */
+    object-fit: cover;
+    object-position: bottom;
+    transition: transform 0.3s ease-in-out;
+}
+#carol5:hover {
+    transform: translate(10px, 10px);
+    transform: scale(1.15,1.15);
+}
+.carol-parent-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+.carol-parent-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+}
+.ten {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 25px;
+}
+#carol6 {
+    width: 100%;
+    height: 70%;
+    clip-path: inset(0px 0px 0px 0px round 0px 0px 20px 20px); 
+    /* border-radius: 30px; */
+    object-fit: cover;
+    object-position: bottom;
+    transition: transform 0.3s ease-in-out;
+}
+#carol6:hover {
+    transform: translate(10px, 10px);
+    transform: scale(1.15,1.15);
+}
+
+.slider-container {
+  overflow: hidden; /* Hides the scrollbar container */
+  width: 100%;
+}
+
+.slider-track {
+  overflow-x: auto;       /* Allows native swipe on mobile/trackpads */
+  white-space: nowrap;
+  padding: 10px 20px;
+  cursor: grab;           /* Shows the hand grab cursor */
+  scroll-behavior: smooth;
+  
+  /* Hide the scrollbar for a clean Canva look */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+}
+
+.slider-track::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, and Opera */
+}
+
+.slider-track:active {
+  cursor: grabbing;          /* Shows closed fist when dragging */
+  scroll-behavior: auto;     /* Disables smooth scroll during drag for instant responsiveness */
+}
+
+/* Styling the cards just for look */
+.slider-item {
+  flex: 0 0 auto;            /* Prevents Bootstrap from shrinking the items */
+  width: max-content;
+  height: 300px;
+  /* background-color: #f3f4f6; */
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  user-select: none;         /* Prevents highlighting text while dragging */
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+#footer-subitem:hover {
+    background-color: #C2C3C5;
+    border-radius: 10px;
+    /* padding: 5px; */
+}
+
+#footer-image:hover {
+    padding-bottom: 3px;
+    padding-top: 0px;
+}
+
+.bottom {
+    display: flex;
+    gap: 35%;
+}
